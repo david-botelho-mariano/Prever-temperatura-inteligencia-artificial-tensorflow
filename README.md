@@ -1,6 +1,6 @@
 # Prever temperatura utilizando inteligencia artificial
 
-# Exemplo das previsões
+# Exemplo das previsões:
 
 <table>
   <tr>
