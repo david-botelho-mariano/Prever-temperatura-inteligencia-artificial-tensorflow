@@ -1,5 +1,7 @@
 # PreverTemperaturaInteligenciaArtificial
 
+# Resultados
+
 <table>
   <tr>
     <td valign="top"><img src="https://i.imgur.com/1ccgP5C.png"></td>
