@@ -51,7 +51,7 @@ dados_csv = dados_csv.values
 historio_temperatura = 720
 prever_qtd_periodos_a_frente = 0
 
-periodo, temperatura = normalizar_dados(uni_data, 22050, None,
+periodo, temperatura = normalizar_dados(dados_csv, 22050, None,
                                        historio_temperatura,
                                        prever_qtd_periodos_a_frente)
 
@@ -59,7 +59,7 @@ periodo, temperatura = normalizar_dados(uni_data, 22050, None,
 dados_prontos = tf.data.Dataset.from_tensor_slices((periodo, temperatura))
 dados_prontos = dados_prontos.batch(256).repeat()
 
-for x, y in val_univariate.take(10):
+for x, y in dados_prontos.take(10):
   plot = mostrar_pontos([x[0].numpy(), y[0].numpy(),
                     modelo_treinado.predict(x)[0]], 0, 'Modelo LSTM')
   plot.show()
