@@ -5,6 +5,10 @@ Para o projeto, utilizou-se da temperatura diária da cidade de brasília dos ú
 
 # Tutorial de uso:
 
+1) Execute o script: "python prever.py"
+
+2) O script irá selecionar 10 dias aleatórios e irá mostrar sua respectivas previsões de 8 horas no futuro.
+
 # Exemplo das previsões:
 
 <table>
