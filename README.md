@@ -1,4 +1,7 @@
-# Prever temperatura utilizando inteligencia artificial
+# Prever temperatura utilizando inteligência artificial
+Esse projeto implenta inteligência artificial por meio da framework tensorflow para a analise e previsão do tempo utilizando os dados metereologicos disponibilizados em http://www.inmet.gov.br/portal/index.php?r=bdmep/bdmep.
+
+Para o projeteto, utilizou-se da rede: Long short-term memory ou LSTM, que é uma recurrent neural network (RNN) usada no campo de deep learning.
 
 # Exemplo das previsões:
 
