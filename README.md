@@ -3,6 +3,8 @@ Esse projeto implenta inteligência artificial por meio da framework tensorflow 
 
 Para o projeteto, utilizou-se da rede: Long short-term memory ou LSTM, que é uma recurrent neural network (RNN) usada no campo de deep learning.
 
+# Tutorial de uso:
+
 # Exemplo das previsões:
 
 <table>
