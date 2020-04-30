@@ -1,4 +1,4 @@
-# PreverTemperaturaInteligenciaArtificial
+# Prever temperatura utilizando inteligencia artificial
 
 # Resultados
 
