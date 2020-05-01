@@ -49,6 +49,7 @@ dados_csv.index = arquivo_csv['Horario']
 dados_csv = dados_csv.values
 
 historio_temperatura = 720
+#utiliza 720 exmeplo do passado para prever a temperatura 8 horas no futuro.
 prever_qtd_periodos_a_frente = 0
 
 periodo, temperatura = normalizar_dados(dados_csv, 22050, None,
